@@ -174,7 +174,7 @@ def show_anggota():
            
             st.markdown("---")
             st.text(f"Mengedit Anggota ID: {selected_id}")
-
+  
             with st.form("edit_anggota"):
                 e_nama = st.text_input("Nama", value=member_data['Nama'])
                 e_alamat = st.text_area("Alamat", value=member_data['Alamat'])
