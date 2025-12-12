@@ -1,0 +1,3 @@
+ID_Pinjam,ID_Buku,ID_Anggota,Tanggal_Pinjam,Tanggal_Kembali,Status
+1,1,2,2025-12-12,2025-12-12,Kembali
+2,1,2,2025-12-12,2025-12-12,Kembali
