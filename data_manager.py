@@ -28,7 +28,7 @@ def init_data():
                     elif dtype == 'datetime':
                         df[col] = pd.to_datetime(df[col]) if col in df.columns else []
         return df
-
+ 
     buku_df = load_or_create(
         'buku.csv',
         ['ID_Buku', 'Judul', 'Penulis', 'Tahun_Terbit', 'Jumlah_Stok'],
